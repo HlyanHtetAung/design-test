@@ -1,0 +1,44 @@
+@import "../../scssVariables.scss";
+
+.appNavbar_wrapper {
+  flex: 1;
+  background-color: $white-color;
+  display: flex;
+  padding: 20px 0px;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  left: 0;
+
+  .appNavbar_searchWrapper {
+    background-color: $primary-color;
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    width: 400px;
+    justify-content: space-between;
+    input {
+      border: none;
+      flex: 1;
+      outline: none;
+      background-color: $primary-color;
+    }
+    .appNavbar_searchIcon {
+      color: $secondary-color;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  .appNav_rightWrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    .appNavbar_userImage {
+      width: 40px;
+      height: 40px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+@import "../../scssVariables.scss";
+
+.notiIcon_wrapper {
+  position: relative;
+  width: 30px;
+  height: 30px;
+
+  .noti {
+    background-color: #eb8b9f;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    position: absolute;
+    right: -1px;
+  }
+
+  .notiIcon {
+    width: 30px;
+    height: 30px;
+  }
+}

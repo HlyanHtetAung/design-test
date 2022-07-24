@@ -1,0 +1,34 @@
+@import "../../scssVariables.scss";
+
+.summary_wrapper {
+  margin-bottom: 50px;
+  h4 {
+    color: $secondary-color;
+    margin-bottom: 10px;
+  }
+  .summary {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    p {
+      color: #afb0bb;
+      padding-bottom: 10px;
+    }
+    .summary_count {
+      padding: 5px 15px;
+      background-color: #fe8599;
+      border-radius: 9px;
+      color: $white-color;
+    }
+  }
+  .summaryAction_wrapper {
+    margin-top: 3px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    p {
+      font-weight: 700;
+    }
+  }
+}

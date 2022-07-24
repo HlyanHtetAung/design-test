@@ -1,0 +1,28 @@
+@import "../../scssVariables.scss";
+
+.sideBarLink_wrapper {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  &.active {
+    .sidebarLink_title,
+    .sidebarLink_icon {
+      color: $secondary-color;
+      font-weight: 900;
+    }
+  }
+
+  .sidebarLink_title {
+    width: 130px;
+    font-size: 15px;
+    margin: 38px 0;
+    font-weight: 500;
+    color: $font-color;
+  }
+
+  .sidebarLink_icon {
+    width: 30px;
+    height: 30px;
+    color: $font-color;
+  }
+}

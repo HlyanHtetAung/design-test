@@ -1,0 +1,17 @@
+@import "../../scssVariables.scss";
+
+.sidebar_wrapper {
+  flex: 0.15;
+  background-color: $white-color;
+  position: sticky;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  padding: 0px 30px;
+  .sidebar_header {
+    padding: 20px 0px;
+    font-size: 25px;
+    color: $secondary-color;
+    margin-bottom: 20px;
+  }
+}
